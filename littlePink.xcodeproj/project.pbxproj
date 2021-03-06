@@ -3,29 +3,68 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		042409BB25F247CF00DD4C25 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042409BA25F247CF00DD4C25 /* HomeVC.swift */; };
+		042409BE25F24E2900DD4C25 /* FollowVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042409BD25F24E2900DD4C25 /* FollowVC.swift */; };
+		042409C125F24E4600DD4C25 /* DiscoverVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042409C025F24E4600DD4C25 /* DiscoverVC.swift */; };
+		042409C425F24E5C00DD4C25 /* NearbyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042409C325F24E5C00DD4C25 /* NearbyVC.swift */; };
+		042409C725F24FC100DD4C25 /* const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042409C625F24FC100DD4C25 /* const.swift */; };
+		042409D625F2A8B000DD4C25 /* WallterFallVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042409D525F2A8B000DD4C25 /* WallterFallVC.swift */; };
+		042409D925F2AE6800DD4C25 /* WaterfallCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042409D825F2AE6800DD4C25 /* WaterfallCell.swift */; };
+		0494FA9225F3657E0015B5CD /* BuildFile in Embed Frameworks */ = {isa = PBXBuildFile; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0494FA9425F365920015B5CD /* CHTCollectionViewWaterfallLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0494FA9325F365920015B5CD /* CHTCollectionViewWaterfallLayout.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		0494FA9525F365920015B5CD /* CHTCollectionViewWaterfallLayout.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0494FA9325F365920015B5CD /* CHTCollectionViewWaterfallLayout.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		04A3C3F425F2121600B21928 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A3C3F325F2121600B21928 /* AppDelegate.swift */; };
 		04A3C3F625F2121600B21928 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A3C3F525F2121600B21928 /* SceneDelegate.swift */; };
-		04A3C3F825F2121600B21928 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A3C3F725F2121600B21928 /* ViewController.swift */; };
 		04A3C3FB25F2121600B21928 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A3C3F925F2121600B21928 /* Main.storyboard */; };
 		04A3C3FE25F2121600B21928 /* littlePink.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04A3C3FC25F2121600B21928 /* littlePink.xcdatamodeld */; };
 		04A3C40025F2121600B21928 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04A3C3FF25F2121600B21928 /* Assets.xcassets */; };
 		04A3C40325F2121600B21928 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A3C40125F2121600B21928 /* LaunchScreen.storyboard */; };
+		E4D4C5A27EC6EE5E03FDAC75 /* Pods_littlePink.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6058C93A6D368A731BBE7A0B /* Pods_littlePink.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		047A26EB25F34D79000A6BEA /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				0494FA9525F365920015B5CD /* CHTCollectionViewWaterfallLayout.framework in Embed Frameworks */,
+				0494FA9225F3657E0015B5CD /* BuildFile in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		042409BA25F247CF00DD4C25 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		042409BD25F24E2900DD4C25 /* FollowVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowVC.swift; sourceTree = "<group>"; };
+		042409C025F24E4600DD4C25 /* DiscoverVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverVC.swift; sourceTree = "<group>"; };
+		042409C325F24E5C00DD4C25 /* NearbyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyVC.swift; sourceTree = "<group>"; };
+		042409C625F24FC100DD4C25 /* const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = const.swift; sourceTree = "<group>"; };
+		042409D525F2A8B000DD4C25 /* WallterFallVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallterFallVC.swift; sourceTree = "<group>"; };
+		042409D825F2AE6800DD4C25 /* WaterfallCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterfallCell.swift; sourceTree = "<group>"; };
+		0441305025F33B96005926C2 /* zh-HK */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-HK"; path = "zh-HK.lproj/Main.strings"; sourceTree = "<group>"; };
+		0441305125F33B96005926C2 /* zh-HK */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-HK"; path = "zh-HK.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		0488263325F33FD900BBB90E /* CHTCollectionViewWaterfallLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CHTCollectionViewWaterfallLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0488263625F33FE000BBB90E /* XLPagerTabStrip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = XLPagerTabStrip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0494FA9325F365920015B5CD /* CHTCollectionViewWaterfallLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CHTCollectionViewWaterfallLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		04A3C3F025F2121600B21928 /* littlePink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = littlePink.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04A3C3F325F2121600B21928 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04A3C3F525F2121600B21928 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		04A3C3F725F2121600B21928 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		04A3C3FA25F2121600B21928 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04A3C3FD25F2121600B21928 /* littlePink.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = littlePink.xcdatamodel; sourceTree = "<group>"; };
 		04A3C3FF25F2121600B21928 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04A3C40225F2121600B21928 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04A3C40425F2121600B21928 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17D998DD14D9B4C1DB0FEFFF /* Pods-littlePink.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-littlePink.release.xcconfig"; path = "Target Support Files/Pods-littlePink/Pods-littlePink.release.xcconfig"; sourceTree = "<group>"; };
+		6058C93A6D368A731BBE7A0B /* Pods_littlePink.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_littlePink.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D6F5CADE4761DDB9C01FA77 /* Pods-littlePink.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-littlePink.debug.xcconfig"; path = "Target Support Files/Pods-littlePink/Pods-littlePink.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +72,57 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0494FA9425F365920015B5CD /* CHTCollectionViewWaterfallLayout.framework in Frameworks */,
+				E4D4C5A27EC6EE5E03FDAC75 /* Pods_littlePink.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		042409C925F250CA00DD4C25 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				042409BA25F247CF00DD4C25 /* HomeVC.swift */,
+				042409BD25F24E2900DD4C25 /* FollowVC.swift */,
+				042409C025F24E4600DD4C25 /* DiscoverVC.swift */,
+				042409C325F24E5C00DD4C25 /* NearbyVC.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		042409E025F2BDFA00DD4C25 /* WallterFall */ = {
+			isa = PBXGroup;
+			children = (
+				042409D525F2A8B000DD4C25 /* WallterFallVC.swift */,
+				042409D825F2AE6800DD4C25 /* WaterfallCell.swift */,
+			);
+			path = WallterFall;
+			sourceTree = "<group>";
+		};
+		042409E125F2BE0700DD4C25 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				042409C625F24FC100DD4C25 /* const.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		0494FA4B25F35ADE0015B5CD /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
 		04A3C3E725F2121600B21928 = {
 			isa = PBXGroup;
 			children = (
 				04A3C3F225F2121600B21928 /* littlePink */,
 				04A3C3F125F2121600B21928 /* Products */,
+				9A6EAED1CABE60A70FF04E73 /* Pods */,
+				D0AAB75D332C94948371F39C /* Frameworks */,
+				0494FA4B25F35ADE0015B5CD /* Recovered References */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,14 +139,36 @@
 			children = (
 				04A3C3F325F2121600B21928 /* AppDelegate.swift */,
 				04A3C3F525F2121600B21928 /* SceneDelegate.swift */,
-				04A3C3F725F2121600B21928 /* ViewController.swift */,
 				04A3C3F925F2121600B21928 /* Main.storyboard */,
+				042409E025F2BDFA00DD4C25 /* WallterFall */,
+				042409E125F2BE0700DD4C25 /* Common */,
+				042409C925F250CA00DD4C25 /* Home */,
 				04A3C3FF25F2121600B21928 /* Assets.xcassets */,
 				04A3C40125F2121600B21928 /* LaunchScreen.storyboard */,
 				04A3C40425F2121600B21928 /* Info.plist */,
 				04A3C3FC25F2121600B21928 /* littlePink.xcdatamodeld */,
 			);
 			path = littlePink;
+			sourceTree = "<group>";
+		};
+		9A6EAED1CABE60A70FF04E73 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7D6F5CADE4761DDB9C01FA77 /* Pods-littlePink.debug.xcconfig */,
+				17D998DD14D9B4C1DB0FEFFF /* Pods-littlePink.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D0AAB75D332C94948371F39C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0494FA9325F365920015B5CD /* CHTCollectionViewWaterfallLayout.framework */,
+				0488263625F33FE000BBB90E /* XLPagerTabStrip.framework */,
+				0488263325F33FD900BBB90E /* CHTCollectionViewWaterfallLayout.framework */,
+				6058C93A6D368A731BBE7A0B /* Pods_littlePink.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +178,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04A3C40725F2121600B21928 /* Build configuration list for PBXNativeTarget "littlePink" */;
 			buildPhases = (
+				E444C86DFF67E197C6F5674B /* [CP] Check Pods Manifest.lock */,
 				04A3C3EC25F2121600B21928 /* Sources */,
 				04A3C3ED25F2121600B21928 /* Frameworks */,
 				04A3C3EE25F2121600B21928 /* Resources */,
+				047A26EB25F34D79000A6BEA /* Embed Frameworks */,
+				696F865E926E24FA5767BA92 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -111,6 +215,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-HK",
 			);
 			mainGroup = 04A3C3E725F2121600B21928;
 			productRefGroup = 04A3C3F125F2121600B21928 /* Products */;
@@ -135,15 +240,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		696F865E926E24FA5767BA92 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-littlePink/Pods-littlePink-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-littlePink/Pods-littlePink-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-littlePink/Pods-littlePink-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E444C86DFF67E197C6F5674B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-littlePink-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		04A3C3EC25F2121600B21928 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04A3C3F825F2121600B21928 /* ViewController.swift in Sources */,
 				04A3C3F425F2121600B21928 /* AppDelegate.swift in Sources */,
+				042409BB25F247CF00DD4C25 /* HomeVC.swift in Sources */,
+				042409D925F2AE6800DD4C25 /* WaterfallCell.swift in Sources */,
+				042409BE25F24E2900DD4C25 /* FollowVC.swift in Sources */,
 				04A3C3F625F2121600B21928 /* SceneDelegate.swift in Sources */,
 				04A3C3FE25F2121600B21928 /* littlePink.xcdatamodeld in Sources */,
+				042409C725F24FC100DD4C25 /* const.swift in Sources */,
+				042409D625F2A8B000DD4C25 /* WallterFallVC.swift in Sources */,
+				042409C125F24E4600DD4C25 /* DiscoverVC.swift in Sources */,
+				042409C425F24E5C00DD4C25 /* NearbyVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,6 +307,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				04A3C3FA25F2121600B21928 /* Base */,
+				0441305025F33B96005926C2 /* zh-HK */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -162,6 +316,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				04A3C40225F2121600B21928 /* Base */,
+				0441305125F33B96005926C2 /* zh-HK */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -172,7 +327,9 @@
 		04A3C40525F2121600B21928 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -220,7 +377,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -233,7 +390,9 @@
 		04A3C40625F2121600B21928 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -275,7 +434,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -287,39 +446,53 @@
 		};
 		04A3C40825F2121600B21928 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D6F5CADE4761DDB9C01FA77 /* Pods-littlePink.debug.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 883LAH56DH;
+				CURRENT_PROJECT_VERSION = 1.1;
+				DEVELOPMENT_TEAM = SYGGG5JKB7;
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = NO;
 				INFOPLIST_FILE = littlePink/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Network.littlePink;
+				MACH_O_TYPE = mh_execute;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.littleBlue.Liang;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		04A3C40925F2121600B21928 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17D998DD14D9B4C1DB0FEFFF /* Pods-littlePink.release.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 883LAH56DH;
+				CURRENT_PROJECT_VERSION = 1.1;
+				DEVELOPMENT_TEAM = SYGGG5JKB7;
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = NO;
 				INFOPLIST_FILE = littlePink/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Network.littlePink;
+				MACH_O_TYPE = mh_execute;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.littleBlue.Liang;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
