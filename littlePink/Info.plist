@@ -2,6 +2,16 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>CFBundleDisplayName</key>
+	<string>LiBu</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>存储照片或视频</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>开启后录取声音</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>开启后可发布照片</string>
+	<key>NSCameraUsageDescription</key>
+	<string>开启后可发布视频动态</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleExecutable</key>
