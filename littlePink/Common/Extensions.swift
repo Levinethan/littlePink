@@ -5,7 +5,7 @@
 //  Created by mac on 2021/3/7.
 //
 
-import Foundation
+import UIKit
 
 
 extension Bundle{
@@ -16,4 +16,17 @@ extension Bundle{
             return infoDictionary!["CFBundleDisplayName"] as! String
         }
     }
+}
+
+extension UIView{
+    @IBInspectable
+    var cornerRadius: CGFloat{
+        get{
+            layer.cornerRadius
+        }
+        set{
+            layer.cornerRadius = newValue
+        }
+    }
+    
 }

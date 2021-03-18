@@ -12,11 +12,14 @@ let    kFollowID = "FollowID"
 let    kDiscover = "DiscoverID"
 let    kNearbyID = "NearbyID"
 let    kWallterFallVCID = "WallterFallVCID"
-
+let    kNoteEditVCID = "NoteEditVCID"
 
 
 // MARK: cellID
 let    kWallter = "WaterfallCellID"
+let    kPhotoCellID = "PhotoCellID"
+let    kPhotoFooterID = "PhotoFooterID"
+
 
 let kWaterfallPading:CGFloat = 4
 

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04052653260302C5002D7E9F /* NoteEditVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04052652260302C5002D7E9F /* NoteEditVCViewController.swift */; };
+		0405265526030E2D002D7E9F /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0405265426030E2D002D7E9F /* PhotoCell.swift */; };
 		042409BB25F247CF00DD4C25 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042409BA25F247CF00DD4C25 /* HomeVC.swift */; };
 		042409BE25F24E2900DD4C25 /* FollowVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042409BD25F24E2900DD4C25 /* FollowVC.swift */; };
 		042409C125F24E4600DD4C25 /* DiscoverVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042409C025F24E4600DD4C25 /* DiscoverVC.swift */; };
@@ -17,8 +19,9 @@
 		0473F74025F4680A00890073 /* TBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0473F73F25F4680A00890073 /* TBC.swift */; };
 		0473F74225F469C200890073 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0473F74125F469C200890073 /* Post.swift */; };
 		0473F74B25F4758300890073 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0473F74A25F4758300890073 /* Extensions.swift */; };
+		048EB11D2603394100B16FFD /* PhotoFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048EB11C2603394100B16FFD /* PhotoFooter.swift */; };
 		0494FA9225F3657E0015B5CD /* (null) in Embed Frameworks */ = {isa = PBXBuildFile; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		0494FA9425F365920015B5CD /* CHTCollectionViewWaterfallLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0494FA9325F365920015B5CD /* CHTCollectionViewWaterfallLayout.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		0494FA9425F365920015B5CD /* CHTCollectionViewWaterfallLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0494FA9325F365920015B5CD /* CHTCollectionViewWaterfallLayout.framework */; };
 		0494FA9525F365920015B5CD /* CHTCollectionViewWaterfallLayout.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0494FA9325F365920015B5CD /* CHTCollectionViewWaterfallLayout.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		04A3C3F425F2121600B21928 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A3C3F325F2121600B21928 /* AppDelegate.swift */; };
 		04A3C3F625F2121600B21928 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A3C3F525F2121600B21928 /* SceneDelegate.swift */; };
@@ -45,6 +48,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		04052652260302C5002D7E9F /* NoteEditVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteEditVCViewController.swift; sourceTree = "<group>"; };
+		0405265426030E2D002D7E9F /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
 		042409BA25F247CF00DD4C25 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		042409BD25F24E2900DD4C25 /* FollowVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowVC.swift; sourceTree = "<group>"; };
 		042409C025F24E4600DD4C25 /* DiscoverVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverVC.swift; sourceTree = "<group>"; };
@@ -59,6 +64,8 @@
 		0473F74A25F4758300890073 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		0488263325F33FD900BBB90E /* CHTCollectionViewWaterfallLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CHTCollectionViewWaterfallLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0488263625F33FE000BBB90E /* XLPagerTabStrip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = XLPagerTabStrip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		048EB11B260322C600B16FFD /* achieveCollectionViewByCode.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = achieveCollectionViewByCode.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		048EB11C2603394100B16FFD /* PhotoFooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoFooter.swift; sourceTree = "<group>"; };
 		0494FA9325F365920015B5CD /* CHTCollectionViewWaterfallLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CHTCollectionViewWaterfallLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		04A3C3F025F2121600B21928 /* littlePink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = littlePink.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04A3C3F325F2121600B21928 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -78,8 +85,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0494FA9425F365920015B5CD /* CHTCollectionViewWaterfallLayout.framework in Frameworks */,
 				E4D4C5A27EC6EE5E03FDAC75 /* Pods_littlePink.framework in Frameworks */,
+				0494FA9425F365920015B5CD /* CHTCollectionViewWaterfallLayout.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,6 +122,16 @@
 			path = Common;
 			sourceTree = "<group>";
 		};
+		048EB11E26033F8000B16FFD /* NoteEdit */ = {
+			isa = PBXGroup;
+			children = (
+				048EB11C2603394100B16FFD /* PhotoFooter.swift */,
+				04052652260302C5002D7E9F /* NoteEditVCViewController.swift */,
+				0405265426030E2D002D7E9F /* PhotoCell.swift */,
+			);
+			path = NoteEdit;
+			sourceTree = "<group>";
+		};
 		0494FA4B25F35ADE0015B5CD /* Recovered References */ = {
 			isa = PBXGroup;
 			children = (
@@ -145,6 +162,7 @@
 			isa = PBXGroup;
 			children = (
 				04A3C3F325F2121600B21928 /* AppDelegate.swift */,
+				048EB11E26033F8000B16FFD /* NoteEdit */,
 				04A3C3F525F2121600B21928 /* SceneDelegate.swift */,
 				04A3C3F925F2121600B21928 /* Main.storyboard */,
 				0473F74125F469C200890073 /* Post.swift */,
@@ -156,6 +174,7 @@
 				04A3C40125F2121600B21928 /* LaunchScreen.storyboard */,
 				04A3C40425F2121600B21928 /* Info.plist */,
 				04A3C3FC25F2121600B21928 /* littlePink.xcdatamodeld */,
+				048EB11B260322C600B16FFD /* achieveCollectionViewByCode.playground */,
 			);
 			path = littlePink;
 			sourceTree = "<group>";
@@ -297,9 +316,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				04A3C3F425F2121600B21928 /* AppDelegate.swift in Sources */,
+				0405265526030E2D002D7E9F /* PhotoCell.swift in Sources */,
 				0473F74025F4680A00890073 /* TBC.swift in Sources */,
 				042409BB25F247CF00DD4C25 /* HomeVC.swift in Sources */,
 				0473F74225F469C200890073 /* Post.swift in Sources */,
+				048EB11D2603394100B16FFD /* PhotoFooter.swift in Sources */,
 				042409D925F2AE6800DD4C25 /* WaterfallCell.swift in Sources */,
 				042409BE25F24E2900DD4C25 /* FollowVC.swift in Sources */,
 				04A3C3F625F2121600B21928 /* SceneDelegate.swift in Sources */,
@@ -309,6 +330,7 @@
 				042409D625F2A8B000DD4C25 /* WallterFallVC.swift in Sources */,
 				042409C125F24E4600DD4C25 /* DiscoverVC.swift in Sources */,
 				042409C425F24E5C00DD4C25 /* NearbyVC.swift in Sources */,
+				04052653260302C5002D7E9F /* NoteEditVCViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

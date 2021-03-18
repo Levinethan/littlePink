@@ -18,11 +18,11 @@ class TBC: UITabBarController, UITabBarControllerDelegate {
         // Do any additional setup after loading the view.
     }
     
-    
     func tabBarController(_ tabBarController: UITabBarController, shouldSelect viewController: UIViewController) -> Bool {
         if viewController is Post{
            
             var config = YPImagePickerConfiguration()
+            
             // [Edit configuration here ...]
             
             config.isScrollToChangeModesEnabled = true
@@ -59,22 +59,15 @@ class TBC: UITabBarController, UITabBarControllerDelegate {
             config.library.preselectedItems = nil
             // Build a picker with your configuration
             let picker = YPImagePicker(configuration: config)
-            picker.didFinishPicking { [unowned picker]items,_ in
-                if let photo = items.singlePhoto{
-                    print(photo.fromCamera)
-                    print(photo.image)
-                    print(photo.originalImage)
+            picker.didFinishPicking { [unowned picker]items,cancled in
+                if cancled{
+                    print("click cancle button")
 
                 }
-                picker.dismiss(animated: true, completion: nil)
+                //picker.pushViewController(<#T##viewController: UIViewController##UIViewController#>, animated: <#T##Bool#>)
+                picker.dismiss(animated: true)
             }
-            present(picker, animated: true, completion: nil)
-            
-            
-            
-            
-            
-            
+            present(picker, animated: true)
             return false
         }
         return true
