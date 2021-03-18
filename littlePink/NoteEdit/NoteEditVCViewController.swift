@@ -7,10 +7,12 @@
 
 import UIKit
 import YPImagePicker
+import MBProgressHUD
+import SKPhotoBrowser
 
 class NoteEditVCViewController: UIViewController {
     
-    var photos = [UIImage(named:"1")]
+    var photos = [UIImage(named:"1")!,UIImage(named: "6")!]
     @IBOutlet weak var photoCollectionView: UICollectionView!
     var photoCount: Int{photos.count}
     
@@ -49,7 +51,29 @@ extension NoteEditVCViewController: UICollectionViewDataSource{
     }
 }
 extension NoteEditVCViewController: UICollectionViewDelegate{
-    
+    //photo reviews
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        var images : [SKPhoto] = []
+        
+        for photo in photos {
+            images.append(SKPhoto.photoWithImage(photo))
+        }
+
+        // 2. create PhotoBrowser Instance, and present from your viewController.
+        let browser = SKPhotoBrowser(photos: images, initialPageIndex: indexPath.item)
+        browser.delegate = self
+        SKPhotoBrowserOptions.displayAction = false
+        SKPhotoBrowserOptions.displayDeleteButton = true
+        present(browser, animated: true)
+    }
+}
+
+extension NoteEditVCViewController: SKPhotoBrowserDelegate{
+    func removePhoto(_ browser: SKPhotoBrowser, index: Int, reload: @escaping (() -> Void)) {
+        photos.remove(at: index)
+        photoCollectionView.reloadData()
+        reload()
+    }
 }
 
 //KVO
@@ -76,13 +100,11 @@ extension NoteEditVCViewController{
                     }
                 }
                 self.photoCollectionView.reloadData()
-                
-                //picker.pushViewController(<#T##viewController: UIViewController##UIViewController#>, animated: <#T##Bool#>)
                 picker.dismiss(animated: true)
             }
             present(picker, animated: true)
         }else{
-            
+            self.shouHUD("最多选择\(kmaxNumberOfItems)张照片")
         }
     }
 }

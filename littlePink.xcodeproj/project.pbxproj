@@ -66,6 +66,7 @@
 		0488263625F33FE000BBB90E /* XLPagerTabStrip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = XLPagerTabStrip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		048EB11B260322C600B16FFD /* achieveCollectionViewByCode.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = achieveCollectionViewByCode.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		048EB11C2603394100B16FFD /* PhotoFooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoFooter.swift; sourceTree = "<group>"; };
+		048EB127260347E500B16FFD /* LittlePink-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LittlePink-Bridging-Header.h"; sourceTree = "<group>"; };
 		0494FA9325F365920015B5CD /* CHTCollectionViewWaterfallLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CHTCollectionViewWaterfallLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		04A3C3F025F2121600B21928 /* littlePink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = littlePink.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04A3C3F325F2121600B21928 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -175,6 +176,7 @@
 				04A3C40425F2121600B21928 /* Info.plist */,
 				04A3C3FC25F2121600B21928 /* littlePink.xcdatamodeld */,
 				048EB11B260322C600B16FFD /* achieveCollectionViewByCode.playground */,
+				048EB127260347E500B16FFD /* LittlePink-Bridging-Header.h */,
 			);
 			path = littlePink;
 			sourceTree = "<group>";
@@ -499,6 +501,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.littleBlue.Liang;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "littlePink/LittlePink-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -525,6 +528,7 @@
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.littleBlue.Liang;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "littlePink/LittlePink-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};

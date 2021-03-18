@@ -18,6 +18,22 @@ extension Bundle{
     }
 }
 
+extension UIViewController{
+    
+    //加载框--手动隐藏
+    
+    
+    
+    //提示框--自动隐藏
+    func shouHUD(_ title:String, _ subTitle: String? = nil){
+        let hud = MBProgressHUD.showAdded(to: view, animated: true)
+        hud.mode = .text
+        hud.label.text = title
+        hud.detailsLabel.text = subTitle
+        hud.hide(animated: true, afterDelay: 2)
+    }
+}
+
 extension UIView{
     @IBInspectable
     var cornerRadius: CGFloat{
