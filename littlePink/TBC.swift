@@ -64,7 +64,15 @@ class TBC: UITabBarController, UITabBarControllerDelegate {
                     print("click cancle button")
 
                 }
-                //picker.pushViewController(<#T##viewController: UIViewController##UIViewController#>, animated: <#T##Bool#>)
+                for item in items{
+                    switch item {
+                    case let .photo(photo):
+                        print(photo)
+                    case .video(let video):
+                        print(video)
+                    }
+                }
+                
                 picker.dismiss(animated: true)
             }
             present(picker, animated: true)

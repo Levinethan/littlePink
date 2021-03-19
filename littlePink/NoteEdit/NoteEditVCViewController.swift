@@ -9,13 +9,15 @@ import UIKit
 import YPImagePicker
 import MBProgressHUD
 import SKPhotoBrowser
-
+import AVKit
 class NoteEditVCViewController: UIViewController {
     
-    var photos = [UIImage(named:"1")!,UIImage(named: "6")!]
+    var photos = [UIImage(named:"1")!,UIImage(named: "2")!]
+    //var videoURL: URL = Bundle.main.url(forResource: "RPReplay_Final1615046701", withExtension: "MP4")!
+    var videoURL: URL?
     @IBOutlet weak var photoCollectionView: UICollectionView!
     var photoCount: Int{photos.count}
-    
+    var isVideo: Bool {videoURL != nil}
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -51,21 +53,30 @@ extension NoteEditVCViewController: UICollectionViewDataSource{
     }
 }
 extension NoteEditVCViewController: UICollectionViewDelegate{
-    //photo reviews
-    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        var images : [SKPhoto] = []
-        
-        for photo in photos {
-            images.append(SKPhoto.photoWithImage(photo))
-        }
+    func collectionView(_ collectionView: UICollectionView, didDeselectItemAt indexPath: IndexPath) {
+        if isVideo{
+            let playerVC = AVPlayerViewController()
+            playerVC.player = AVPlayer(url: videoURL!)
+            present(playerVC, animated: true){
+                playerVC.player?.play()
+            }
+        }else{
+            var images : [SKPhoto] = []
+            
+            for photo in photos {
+                images.append(SKPhoto.photoWithImage(photo))
+            }
 
-        // 2. create PhotoBrowser Instance, and present from your viewController.
-        let browser = SKPhotoBrowser(photos: images, initialPageIndex: indexPath.item)
-        browser.delegate = self
-        SKPhotoBrowserOptions.displayAction = false
-        SKPhotoBrowserOptions.displayDeleteButton = true
-        present(browser, animated: true)
+            // 2. create PhotoBrowser Instance, and present from your viewController.
+            let browser = SKPhotoBrowser(photos: images, initialPageIndex: indexPath.item)
+            browser.delegate = self
+            SKPhotoBrowserOptions.displayAction = false
+            SKPhotoBrowserOptions.displayDeleteButton = true
+            present(browser, animated: true)
+        }
     }
+    //photo reviews
+
 }
 
 extension NoteEditVCViewController: SKPhotoBrowserDelegate{

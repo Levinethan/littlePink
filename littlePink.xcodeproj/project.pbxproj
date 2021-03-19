@@ -20,6 +20,7 @@
 		0473F74225F469C200890073 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0473F74125F469C200890073 /* Post.swift */; };
 		0473F74B25F4758300890073 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0473F74A25F4758300890073 /* Extensions.swift */; };
 		048EB11D2603394100B16FFD /* PhotoFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048EB11C2603394100B16FFD /* PhotoFooter.swift */; };
+		048EB13D260465FA00B16FFD /* RPReplay_Final1615046701.MP4 in Resources */ = {isa = PBXBuildFile; fileRef = 048EB13C260465FA00B16FFD /* RPReplay_Final1615046701.MP4 */; };
 		0494FA9225F3657E0015B5CD /* (null) in Embed Frameworks */ = {isa = PBXBuildFile; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		0494FA9425F365920015B5CD /* CHTCollectionViewWaterfallLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0494FA9325F365920015B5CD /* CHTCollectionViewWaterfallLayout.framework */; };
 		0494FA9525F365920015B5CD /* CHTCollectionViewWaterfallLayout.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0494FA9325F365920015B5CD /* CHTCollectionViewWaterfallLayout.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -67,6 +68,7 @@
 		048EB11B260322C600B16FFD /* achieveCollectionViewByCode.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = achieveCollectionViewByCode.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		048EB11C2603394100B16FFD /* PhotoFooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoFooter.swift; sourceTree = "<group>"; };
 		048EB127260347E500B16FFD /* LittlePink-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LittlePink-Bridging-Header.h"; sourceTree = "<group>"; };
+		048EB13C260465FA00B16FFD /* RPReplay_Final1615046701.MP4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = RPReplay_Final1615046701.MP4; path = ../../../../Downloads/RPReplay_Final1615046701.MP4; sourceTree = "<group>"; };
 		0494FA9325F365920015B5CD /* CHTCollectionViewWaterfallLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CHTCollectionViewWaterfallLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		04A3C3F025F2121600B21928 /* littlePink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = littlePink.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04A3C3F325F2121600B21928 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -177,6 +179,7 @@
 				04A3C3FC25F2121600B21928 /* littlePink.xcdatamodeld */,
 				048EB11B260322C600B16FFD /* achieveCollectionViewByCode.playground */,
 				048EB127260347E500B16FFD /* LittlePink-Bridging-Header.h */,
+				048EB13C260465FA00B16FFD /* RPReplay_Final1615046701.MP4 */,
 			);
 			path = littlePink;
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 			files = (
 				04A3C40325F2121600B21928 /* LaunchScreen.storyboard in Resources */,
 				04A3C40025F2121600B21928 /* Assets.xcassets in Resources */,
+				048EB13D260465FA00B16FFD /* RPReplay_Final1615046701.MP4 in Resources */,
 				04A3C3FB25F2121600B21928 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
